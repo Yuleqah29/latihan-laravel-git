@@ -100,6 +100,9 @@
                         </div>
                     </div>
                 </div>
+               
+                <!--contoh perubahan -->
+                <!--      Laravel's robust library of first-party tools and libraries, such as  -->
 
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
