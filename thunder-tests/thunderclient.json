@@ -1,0 +1,258 @@
+[
+  {
+    "_id": "42a90e46-9969-4756-bfbc-fa7654519e45",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "",
+    "name": "register",
+    "url": "http://127.0.0.1:8000/api/register",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-28T03:07:48.939Z",
+    "modified": "2022-12-28T05:46:18.178Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Michale"
+        },
+        {
+          "name": "email",
+          "value": "hale@gmail.com"
+        },
+        {
+          "name": "password",
+          "value": "12345678"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b6e0148f-4bc2-496b-8d3b-8509f17e2777",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "",
+    "name": "login",
+    "url": "http://127.0.0.1:8000/api/login",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-12-28T03:10:58.483Z",
+    "modified": "2022-12-28T05:46:59.156Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "hale@gmail.com"
+        },
+        {
+          "name": "password",
+          "value": "12345678"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "3382a44c-0e0d-4189-b184-487250e129e6",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "",
+    "name": "profile",
+    "url": "http://127.0.0.1:8000/api/profile",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-12-28T03:13:15.799Z",
+    "modified": "2022-12-28T05:47:19.788Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "10|V8pxevR4fcEZsVBAxVlw9zL49zqwSLVwIwwCgg4s"
+    },
+    "tests": []
+  },
+  {
+    "_id": "14cb9cde-61df-4671-af8f-6afc83662afe",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "",
+    "name": " logout",
+    "url": "http://127.0.0.1:8000/api/logout",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-12-28T03:14:28.609Z",
+    "modified": "2022-12-28T04:20:19.303Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "8|fAStJj5t5h4zn0wmJf2A81PvbrglISL7totR88c9"
+    },
+    "tests": []
+  },
+  {
+    "_id": "0419d645-0b3a-4d29-b354-e9519072f54e",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "bd545437-b9a8-4c3c-88a0-0d036f1bf40e",
+    "name": "input_produk",
+    "url": "http://latihan-laravel.test/api/api_simpan_input_produk",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2022-12-28T04:31:14.102Z",
+    "modified": "2022-12-28T05:47:39.773Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "nama_produk",
+          "value": "Hijab"
+        },
+        {
+          "name": "stok",
+          "value": "10"
+        },
+        {
+          "name": "deskripsi_produk",
+          "value": "Hijab segi empat"
+        }
+      ],
+      "files": [
+        {
+          "name": "gambar_produk",
+          "value": "..\\..\\..\\..\\Users\\IT\\Downloads\\hijab.jpg"
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "10|V8pxevR4fcEZsVBAxVlw9zL49zqwSLVwIwwCgg4s"
+    },
+    "tests": []
+  },
+  {
+    "_id": "80c76013-86b0-4e82-a6b1-3e6b6a9e1993",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "bd545437-b9a8-4c3c-88a0-0d036f1bf40e",
+    "name": "api_get_produk",
+    "url": "http://latihan-laravel.test/api/api_get_produk",
+    "method": "GET",
+    "sortNum": 140000,
+    "created": "2022-12-28T05:56:04.360Z",
+    "modified": "2022-12-28T06:00:37.835Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "10|V8pxevR4fcEZsVBAxVlw9zL49zqwSLVwIwwCgg4s"
+    },
+    "tests": []
+  },
+  {
+    "_id": "3113a3c3-a1f3-4b7e-8ae1-00049b6e8ca8",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "bd545437-b9a8-4c3c-88a0-0d036f1bf40e",
+    "name": "api_simpan_edit_produk",
+    "url": "http://latihan-laravel.test/api/api_simpan_edit_produk",
+    "method": "POST",
+    "sortNum": 150000,
+    "created": "2022-12-28T06:07:13.366Z",
+    "modified": "2022-12-28T07:07:37.638Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id_produk",
+          "value": "1"
+        },
+        {
+          "name": "nama_produk",
+          "value": "Baju"
+        },
+        {
+          "name": "stok",
+          "value": "15"
+        },
+        {
+          "name": "deskripsi_produk",
+          "value": "Baju Pria ukuran L"
+        },
+        {
+          "name": "gambar_produk_lama",
+          "value": "baju.jpg"
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "10|V8pxevR4fcEZsVBAxVlw9zL49zqwSLVwIwwCgg4s"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6f1ff477-354a-411c-8aa7-5d5760b40f9f",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "bd545437-b9a8-4c3c-88a0-0d036f1bf40e",
+    "name": "api_hapus_produk",
+    "url": "http://latihan-laravel.test/api/api_hapus_produk",
+    "method": "POST",
+    "sortNum": 160000,
+    "created": "2022-12-28T06:18:10.826Z",
+    "modified": "2022-12-28T06:22:19.084Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id_produk",
+          "value": "4"
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "10|V8pxevR4fcEZsVBAxVlw9zL49zqwSLVwIwwCgg4s"
+    },
+    "tests": []
+  },
+  {
+    "_id": "fcafcb5d-5308-4d77-8d0a-68e25a8d6fda",
+    "colId": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "containerId": "bd545437-b9a8-4c3c-88a0-0d036f1bf40e",
+    "name": "cek_id_produk",
+    "url": "http://latihan-laravel.test/api/api_cek_id_produk",
+    "method": "GET",
+    "sortNum": 170000,
+    "created": "2022-12-28T06:44:42.128Z",
+    "modified": "2022-12-29T01:55:27.565Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id_produk",
+          "value": "1"
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "10|V8pxevR4fcEZsVBAxVlw9zL49zqwSLVwIwwCgg4s"
+    },
+    "tests": []
+  }
+]

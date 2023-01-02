@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "724bc9f7-96be-40ad-960a-388399e4589b",
+    "colName": "Latihan Rest Api",
+    "created": "2022-12-28T03:05:23.531Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "bd545437-b9a8-4c3c-88a0-0d036f1bf40e",
+        "name": "CRUD",
+        "containerId": "",
+        "created": "2022-12-28T03:15:22.450Z",
+        "sortNum": 10000
+      }
+    ]
+  }
+]
